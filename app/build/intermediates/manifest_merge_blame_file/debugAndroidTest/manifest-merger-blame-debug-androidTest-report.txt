@@ -3,35 +3,35 @@
 3    package="gujiakai.lindots.test" >
 4
 5    <uses-sdk
-5-->C:\Users\Gabriel\Desktop\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2692774865833808518.xml:5:5-74
+5-->C:\Users\Gabriel\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8057954717469282.xml:5:5-74
 6        android:minSdkVersion="16"
-6-->C:\Users\Gabriel\Desktop\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2692774865833808518.xml:5:15-41
+6-->C:\Users\Gabriel\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8057954717469282.xml:5:15-41
 7        android:targetSdkVersion="29" />
-7-->C:\Users\Gabriel\Desktop\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2692774865833808518.xml:5:42-71
+7-->C:\Users\Gabriel\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8057954717469282.xml:5:42-71
 8
 9    <instrumentation
-9-->C:\Users\Gabriel\Desktop\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2692774865833808518.xml:11:5-15:66
+9-->C:\Users\Gabriel\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8057954717469282.xml:11:5-15:66
 10        android:name="android.test.InstrumentationTestRunner"
-10-->C:\Users\Gabriel\Desktop\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2692774865833808518.xml:11:22-75
+10-->C:\Users\Gabriel\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8057954717469282.xml:11:22-75
 11        android:functionalTest="false"
-11-->C:\Users\Gabriel\Desktop\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2692774865833808518.xml:14:22-52
+11-->C:\Users\Gabriel\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8057954717469282.xml:14:22-52
 12        android:handleProfiling="false"
-12-->C:\Users\Gabriel\Desktop\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2692774865833808518.xml:13:22-53
+12-->C:\Users\Gabriel\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8057954717469282.xml:13:22-53
 13        android:label="Tests for gujiakai.lindots"
-13-->C:\Users\Gabriel\Desktop\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2692774865833808518.xml:15:22-64
+13-->C:\Users\Gabriel\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8057954717469282.xml:15:22-64
 14        android:targetPackage="gujiakai.lindots" />
-14-->C:\Users\Gabriel\Desktop\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2692774865833808518.xml:12:22-62
+14-->C:\Users\Gabriel\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8057954717469282.xml:12:22-62
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.1.0] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\1ae1c46388584ef58ef344f92c37d35e\core-1.1.0\AndroidManifest.xml:24:5-72
 16-->[androidx.test:core:1.1.0] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\1ae1c46388584ef58ef344f92c37d35e\core-1.1.0\AndroidManifest.xml:24:22-69
 17
 18    <application android:debuggable="true" >
-18-->C:\Users\Gabriel\Desktop\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2692774865833808518.xml:7:5-9:19
-18-->C:\Users\Gabriel\Desktop\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2692774865833808518.xml:7:18-43
+18-->C:\Users\Gabriel\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8057954717469282.xml:7:5-9:19
+18-->C:\Users\Gabriel\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8057954717469282.xml:7:18-43
 19        <uses-library android:name="android.test.runner" />
-19-->C:\Users\Gabriel\Desktop\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2692774865833808518.xml:8:9-60
-19-->C:\Users\Gabriel\Desktop\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2692774865833808518.xml:8:23-57
+19-->C:\Users\Gabriel\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8057954717469282.xml:8:9-60
+19-->C:\Users\Gabriel\DotLine-master\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8057954717469282.xml:8:23-57
 20
 21        <activity
 21-->[androidx.test:core:1.1.0] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\1ae1c46388584ef58ef344f92c37d35e\core-1.1.0\AndroidManifest.xml:27:9-33:20

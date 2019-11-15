@@ -16,10 +16,10 @@ public class AIwanjia extends wanjia {
     private HashMap<Xian, Integer> huanxianzhi;
     private HashMap<Xian, Integer> youxianzhonglei;
 
-    private AIwanjia(int nanyidu, youxi game) {
+    private AIwanjia(int nanyidu, youxi Youxi) {
         this(null);
         this.setNanyidu(nanyidu);
-        this.jiarudaoyouxi(game);
+        this.jiarudaoyouxi(Youxi);
     }
 
     public AIwanjia(String name) {
