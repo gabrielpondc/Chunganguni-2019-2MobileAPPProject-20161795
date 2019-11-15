@@ -17,8 +17,8 @@ public abstract class wanjia {
 
     private youxi game;
 
-    public wanjia(String name){
-        this.name=name;
+    public wanjia(String mingcheng){
+        this.name=mingcheng;
     }
 
     public String getName(){
