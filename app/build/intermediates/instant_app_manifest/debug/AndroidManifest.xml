@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gujiakai.lindots"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="2.1.4-beta-music_change" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="29" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="gujiakai.dotsline.shitu.zhuyaodonzuo"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="gujiakai.dotsline.shitu.shuangren"
+            android:label="@string/title_activity_board"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="gujiakai.dotsline.shitu.bangzhu"
+            android:label="@string/title_activity_help"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="gujiakai.dotsline.shitu.danren"
+            android:label="@string/title_activity_single"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="gujiakai.dotsline.shitu.shenyinshezhi"
+            android:label="@string/title_activity_sound"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

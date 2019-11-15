@@ -1,0 +1,4 @@
+#Fri Nov 15 22:22:59 KST 2019
+base.0=C\:\\Users\\Gabriel\\Desktop\\DotLine-master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
