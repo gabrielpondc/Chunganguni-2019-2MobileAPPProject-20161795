@@ -21,7 +21,7 @@ public abstract class wanjia {
         this.name=mingcheng;
     }
 
-    public String getName(){
+    public String huoqumingcheng(){
         return name;
     }
 

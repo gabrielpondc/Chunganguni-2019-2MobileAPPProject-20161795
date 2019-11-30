@@ -111,7 +111,7 @@ public class shuangren extends Activity implements wanjiazhuangtaishitu {
         bofangqi.stop();//停止播放
     }
     @Override
-    public boolean onKeyDown(int shuru, KeyEvent shuzhi) {
+    public boolean onKeyDown(int shuru, KeyEvent shuzi8hi) {
         if (shuru == KeyEvent.KEYCODE_BACK) {
             showExitDialog();
         }
@@ -221,7 +221,7 @@ public class shuangren extends Activity implements wanjiazhuangtaishitu {
             public void run() {
                 String wanjiaxinming = "";
                 for (wanjia Wanjia : yinjia) {
-                    wanjiaxinming += Wanjia.getName();
+                    wanjiaxinming += Wanjia.huoqumingcheng();
                     wanjiaxinming += " ";
                 }
                 new AlertDialog.Builder(shuangren.this)

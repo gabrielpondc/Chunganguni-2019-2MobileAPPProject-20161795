@@ -1,5 +1,5 @@
 package gujiakai.dotsline.shitu;
-import gujiakai.dotsline.mokuai.AIwanjia;
+import gujiakai.dotsline.mokuai.zhinengwanjia;
 import gujiakai.dotsline.mokuai.Renleiwanjia;
 import gujiakai.dotsline.mokuai.wanjia;
 import gujiakai.dotsline.R;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 import android.content.DialogInterface;
 
 public class danren extends shuangren {
-    private AIwanjia diannao;
+    private zhinengwanjia diannao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class danren extends shuangren {
 
     @Override
     protected wanjia[] chushihuawanjia() {
-        diannao = new AIwanjia("인공지능");
+        diannao = new zhinengwanjia("인공지능");
         return new wanjia[]{new Renleiwanjia("플레이어"), diannao};
     }
 

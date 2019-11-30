@@ -26,7 +26,7 @@ public class shenyinshezhi extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.shengyin);
 		
-		zhuyaoxindongzhi = new Intent(this, zhuyaodonzuo.class);
+		zhuyaoxindongzhi = new Intent(this, zhuye.class);
 		ImageButton returnn = (ImageButton) findViewById(R.id.rupiananniu);
 		returnn.setOnClickListener(new OnClickListener() {
 

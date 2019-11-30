@@ -14,7 +14,7 @@ public class bangzhu extends Activity {
 	protected void onCreate(Bundle baocunshitu) {
 		super.onCreate(baocunshitu);
 		setContentView(R.layout.bangzhu);
-		zhushitu = new Intent(this, zhuyaodonzuo.class);
+		zhushitu = new Intent(this, zhuye.class);
 		ImageButton returnn = (ImageButton) findViewById(R.id.chongzhianniu);
 		returnn.setOnClickListener(new OnClickListener() {
 

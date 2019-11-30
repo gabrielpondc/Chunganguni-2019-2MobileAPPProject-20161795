@@ -144,7 +144,7 @@ public class youxishitu extends View implements Observer {
             }
         }
 
-        //tuya boxes
+        //涂盒子
         for (int a = 0; a < Youxi.huoqukuan(); a++) {
             for (int b = 0; b < Youxi.huoqugao(); b++) {
                 tuya.setColor(Youxi.huoquzhanyougezi(b, a) == null ? Color.TRANSPARENT : wanjiayanse[wanjia.zhibiao(Youxi.huoquzhanyougezi(b, a), Youxi.huoquwanjia())]);
@@ -155,7 +155,7 @@ public class youxishitu extends View implements Observer {
             }
         }
 
-        //tuya points
+        //设置点
         tuya.setColor(huise);
         for (int a = 0; a < 6; a++) {
             for (int b = 0; b < 6; b++) {

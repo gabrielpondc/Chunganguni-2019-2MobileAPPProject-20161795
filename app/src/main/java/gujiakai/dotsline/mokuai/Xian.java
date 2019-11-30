@@ -46,6 +46,8 @@ public class Xian {
 
     @Override
     public String toString() {
-        return "fangxiang:"+ fangxiang().toString()+"lie:"+ lie +"yuanzhu"+ yuanzhu;
+
+        return "방향:"+ fangxiang().toString()+"세로:"+ lie +"가로"+ yuanzhu;
+
     }
 }

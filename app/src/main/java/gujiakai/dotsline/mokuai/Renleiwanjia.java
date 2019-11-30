@@ -4,28 +4,28 @@ package gujiakai.dotsline.mokuai;
  * Created by GUJIAKAI on 2019/11
  */
 public class Renleiwanjia extends wanjia {
-    private Xian[] inputBuffer=new Xian[1];
+    private Xian[] shuruhuacun =new Xian[1];
 
-    public Renleiwanjia(String name) {
-        super(name);
+    public Renleiwanjia(String mingcheng) {
+        super(mingcheng);
     }
 
     public void add(Xian xian) {
-        synchronized (inputBuffer){
-            inputBuffer[0]=xian;
-            inputBuffer.notify();
+        synchronized (shuruhuacun){
+            shuruhuacun[0]=xian;
+            shuruhuacun.notify();
         }
     }
 
     private Xian getInput(){
-        synchronized (inputBuffer){
-            if(inputBuffer[0]!=null){
-                Xian linshi=inputBuffer[0];
-                inputBuffer[0]=null;
+        synchronized (shuruhuacun){
+            if(shuruhuacun[0]!=null){
+                Xian linshi= shuruhuacun[0];
+                shuruhuacun[0]=null;
                 return linshi;
             }
             try {
-                inputBuffer.wait();
+                shuruhuacun.wait();
             } catch (InterruptedException e) {
             }
             return this.getInput();
