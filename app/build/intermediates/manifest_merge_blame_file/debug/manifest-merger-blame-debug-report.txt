@@ -27,8 +27,8 @@
 18-->C:\Users\Gabriel\DotLine-master\app\src\main\AndroidManifest.xml:8:9-62
 19        <activity
 19-->C:\Users\Gabriel\DotLine-master\app\src\main\AndroidManifest.xml:10:9-19:20
-20            android:name="gujiakai.dotsline.shitu.zhuyaodonzuo"
-20-->C:\Users\Gabriel\DotLine-master\app\src\main\AndroidManifest.xml:11:13-64
+20            android:name="gujiakai.dotsline.shitu.zhuye"
+20-->C:\Users\Gabriel\DotLine-master\app\src\main\AndroidManifest.xml:11:13-57
 21            android:label="@string/title_activity_main"
 21-->C:\Users\Gabriel\DotLine-master\app\src\main\AndroidManifest.xml:12:13-56
 22            android:screenOrientation="portrait" >
